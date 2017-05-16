@@ -44,6 +44,7 @@ module.exports = {
         "quotes": [ 2, "double", { "avoidEscape": true } ],
         "no-trailing-spaces": 0,
         "space-before-function-paren": 0,
+        "space-in-parens": [ "error", "always" ],
 
         "react/prefer-es6-class": 1,
         "react/jsx-filename-extension": 0,
