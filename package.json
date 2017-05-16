@@ -1,17 +1,17 @@
 {
-    "name": "@textpress/eslint-config-textpress",
-    "version": "0.0.1",
-    "description": "Textpress's eslint config",
-    "main": "index.js",
-    "author": "textpress",
-    "dependencies": {
-        "babel-eslint": "^7.1.1",
-        "eslint": "^3.17.1",
-        "eslint-config-idiomatic": "^3.1.0",
-        "eslint-plugin-flowtype": "^2.30.3",
-        "eslint-plugin-flowtype-errors": "^3.0.1",
-        "eslint-plugin-jest": "^19.0.1",
-        "eslint-plugin-react": "^6.10.0",
-        "flow-bin": "^0.46.0"
-    }
+  "name": "@textpress/eslint-config-textpress",
+  "version": "0.0.2",
+  "description": "Textpress's eslint config",
+  "main": "index.js",
+  "author": "textpress",
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.17.1",
+    "eslint-config-idiomatic": "^3.1.0",
+    "eslint-plugin-flowtype": "^2.30.3",
+    "eslint-plugin-flowtype-errors": "^3.0.1",
+    "eslint-plugin-jest": "^19.0.1",
+    "eslint-plugin-react": "^6.10.0",
+    "flow-bin": "^0.46.0"
+  }
 }
