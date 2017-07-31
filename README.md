@@ -9,7 +9,7 @@ How to use:
 
 ```
 {
-    "extends": "eslint-config-textpress"
+    "extends": "@textpress/eslint-config-textpress"
 }
 ```
 
