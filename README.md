@@ -4,7 +4,7 @@
 
 How to use:
 
-- `yarn add --dev eslint-config-textpress`
+- `yarn add --dev @textpress/eslint-config-textpress`
 - Create the following `.eslintrc` file:
 
 ```
