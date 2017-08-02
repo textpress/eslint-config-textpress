@@ -1,6 +1,6 @@
 {
   "name": "@textpress/eslint-config-textpress",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Textpress's eslint config",
   "main": "index.js",
   "author": "textpress",
