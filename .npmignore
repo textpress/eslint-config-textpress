@@ -3,3 +3,4 @@
 .*
 yalc.lock
 yarn.lock
+gulpfile.js

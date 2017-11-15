@@ -1,16 +1,30 @@
 {
-  "name": "@textpress/eslint-config-textpress",
-  "version": "0.0.6",
-  "description": "Textpress's eslint config",
-  "main": "index.js",
-  "author": "textpress",
-  "dependencies": {
-    "babel-eslint": "*",
-    "eslint": "*",
-    "eslint-config-idiomatic": "*",
-    "eslint-plugin-flowtype": "*",
-    "eslint-plugin-flowtype-errors": "*",
-    "eslint-plugin-jest": "*",
-    "eslint-plugin-react": "*"
-  }
+    "name": "@textpress/eslint-config-textpress",
+    "version": "0.0.6",
+    "description": "Textpress's eslint config",
+    "main": "index.js",
+    "author": "textpress",
+    "repository": "github:textpress/eslint-config-textpress",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "bump": "gulp bump --part",
+        "ci-test": "true",
+        "ci-build": "true",
+        "ci-release-notes": "conventional-github-releaser -p eslint"
+    },
+    "dependencies": {
+        "babel-eslint": "*",
+        "eslint": "*",
+        "eslint-config-idiomatic": "*",
+        "eslint-plugin-flowtype": "*",
+        "eslint-plugin-flowtype-errors": "*",
+        "eslint-plugin-jest": "*",
+        "eslint-plugin-react": "*"
+    },
+    "devDependencies": {
+        "@textpress/gulp-bump-version": "*"
+    }
 }
