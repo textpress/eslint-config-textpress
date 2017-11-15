@@ -25,6 +25,7 @@
         "eslint-plugin-react": "*"
     },
     "devDependencies": {
-        "@textpress/gulp-bump-version": "*"
+        "@textpress/gulp-bump-version": "*",
+        "conventional-github-releaser": "^2.0.0"
     }
 }
