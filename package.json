@@ -19,8 +19,6 @@
         "babel-eslint": "*",
         "eslint": "*",
         "eslint-config-idiomatic": "*",
-        "eslint-plugin-flowtype": "*",
-        "eslint-plugin-flowtype-errors": "*",
         "eslint-plugin-jest": "*",
         "eslint-plugin-react": "*"
     },
