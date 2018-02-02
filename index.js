@@ -7,8 +7,7 @@ module.exports = {
     ],
 
     "extends": [
-        "idiomatic",
-        "plugin:flowtype/recommended"
+        "idiomatic"
     ],
 
     "env": {
