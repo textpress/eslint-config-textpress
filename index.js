@@ -27,7 +27,7 @@ module.exports = {
 
     "rules": {
         "brace-style": [ 2, "1tbs", { "allowSingleLine": true } ],
-        "complexity": [ 1, 5 ],
+        "complexity": [ 1, 8 ],
         "computed-property-spacing": [ 0, "never" ],
         "curly": 0,
         "func-names": [ 0, "as-needed" ],
