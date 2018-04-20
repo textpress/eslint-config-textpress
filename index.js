@@ -33,6 +33,7 @@ module.exports = {
         "func-names": [ 0, "as-needed" ],
         "indent": [ 2, 4, { "SwitchCase": 1 } ],
         "no-inline-comments": 0,
+        "no-undef": 1,
         "no-unused-vars": 1,
         "no-use-before-define": [ 2, { "functions": false } ],
         "one-var": [ 0, "never" ],
