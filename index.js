@@ -3,11 +3,14 @@ module.exports = {
 
     "plugins": [
         "react",
-        "jest"
+        "jest",
+        "package-json"
     ],
 
     "extends": [
-        "idiomatic"
+        "idiomatic",
+        "plugin:react/recommended",
+        "plugin:package-json/recommended"
     ],
 
     "env": {
@@ -18,7 +21,7 @@ module.exports = {
     },
 
     "parserOptions": {
-        "ecmaVersion": 7,
+        "ecmaVersion": 2020,
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true

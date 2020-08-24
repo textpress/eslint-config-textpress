@@ -1,30 +1,31 @@
 {
-  "name": "@textpress/eslint-config-textpress",
-  "version": "0.4.0",
-  "description": "Textpress's eslint config",
-  "main": "index.js",
-  "author": "textpress",
-  "repository": "github:textpress/eslint-config-textpress",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "bump": "gulp bump --part",
-    "ci-test": "true",
-    "ci-build": "true",
-    "ci-release-notes": "conventional-github-releaser -p eslint"
-  },
-  "dependencies": {
-    "babel-eslint": "*",
-    "eslint": "*",
-    "eslint-config-idiomatic": "*",
-    "eslint-plugin-jest": "*",
-    "eslint-plugin-react": "*"
-  },
-  "devDependencies": {
-    "@textpress/gulp-bump-version": "*",
-    "conventional-github-releaser": "^2.0.0",
-    "gulp": "^3.9.1"
-  }
+    "name": "@textpress/eslint-config-textpress",
+    "version": "0.4.0",
+    "description": "Textpress's eslint config",
+    "main": "index.js",
+    "author": "textpress",
+    "repository": "github:textpress/eslint-config-textpress",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "bump": "gulp bump --part",
+        "ci-test": "true",
+        "ci-build": "true",
+        "ci-release-notes": "conventional-github-releaser -p eslint"
+    },
+    "dependencies": {
+        "babel-eslint": "10.1.0",
+        "eslint": "7.7.0",
+        "eslint-config-idiomatic": "*",
+        "eslint-plugin-jest": "23.20.0",
+        "eslint-plugin-package-json": "^0.1.4",
+        "eslint-plugin-react": "7.20.6"
+    },
+    "devDependencies": {
+        "@textpress/gulp-bump-version": "0.7.0",
+        "conventional-github-releaser": "^3.1.5",
+        "gulp": "^4.0.2"
+    }
 }
